@@ -87,7 +87,7 @@ class VisitorsController < ApplicationController
     #Change date time to timestamp
     searched_timestamp = searched_time.to_i
     logger.info "*******************************Searched Time**********************************************"
-    logger.info searched_time, searched_timestamp
+    logger.info("Searched time is:  #{searched_time} and Timestamp is #{searched_timestamp}")
     searched_date = Time.at(searched_timestamp).strftime("%Y-%m-%d")
     result = PreProcessedDatum.where("event_time <= ? AND date(from_unixtime(event_time)) = ?", searched_timestamp, searched_date).order('event_time DESC').limit(1)
     logger.info("*******************************Got The Query Response**********************************************")

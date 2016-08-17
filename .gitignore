@@ -2,3 +2,4 @@
 *.iml
 .byebug_history
 config/database.yml
+log
