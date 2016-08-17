@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ticked:</strong>
+  <%= @visitor.ticked_id %>
+</p>
+
+<p>
+  <strong>Event Type:</strong>
+  <%= @visitor.event_type %>
+</p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @visitor.event_time %>
+</p>
+
+<%= link_to 'Edit', edit_visitor_path(@visitor) %> |
+<%= link_to 'Back', visitors_path %>

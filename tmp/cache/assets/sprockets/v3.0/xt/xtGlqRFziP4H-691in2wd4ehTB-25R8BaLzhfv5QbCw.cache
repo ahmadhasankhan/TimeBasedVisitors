@@ -1,0 +1,13 @@
+I"î(function() {
+  jQuery(function() {
+    return Morris.Line({
+      element: 'visitors_graph',
+      data: $('#visitors_graph').data('visitos'),
+      xkey: 'y',
+      ykeys: ['a'],
+      labels: ['Series A']
+    });
+  });
+
+}).call(this);
+:ET

@@ -1,0 +1,15 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+@import "morris";
+
+body {
+  padding-top: 30px;
+}
+
+select {
+  width: 150px;
+  text-indent: 15px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}

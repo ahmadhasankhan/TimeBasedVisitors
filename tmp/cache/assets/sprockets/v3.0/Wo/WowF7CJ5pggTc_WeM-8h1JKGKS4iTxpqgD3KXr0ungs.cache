@@ -1,0 +1,14 @@
+I"(function() {
+  jQuery(function() {
+    return Morris.Line({
+      element: 'visitors_graph',
+      data: $('#visitors_graph').data('visitos'),
+      xkey: 'event_time',
+      ykeys: ['till_now'],
+      labels: ['visits'],
+      parseTime: false
+    });
+  });
+
+}).call(this);
+:ET

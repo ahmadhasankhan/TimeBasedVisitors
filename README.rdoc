@@ -1,0 +1,18 @@
+# TimeBasedVisitors
+
+Things you may want to know:
+
+##### Ruby version : `2.2.3`
+
+##### Configuration: `MySQL or PGSQL`
+
+##### Database creation:
+ - `$ rake db:create`
+
+##### Database initialization
+ - `$ rake db:migrate`
+
+##### Services:
+
+- To import data: {host}/visitors/import
+- To search: {host}/
